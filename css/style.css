@@ -1,0 +1,127 @@
+/* ========== All common css start=========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 1.4;
+}
+
+/* ========== All common CSS section END=========== */
+
+/* font-family: "Be Vietnam Pro", sans-serif; */
+/* font-family: "Lato", sans-serif; */
+/* font-family: "Outfit", sans-serif; */
+/* font-family: "Poppins", sans-serif; */
+
+
+/* ========== header CSS section start=========== */
+.navbar-nav .nav-item .nav-link {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4D4D4D;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #36B864;
+    text-shadow: 0.5px 0 0 #36B864;
+}
+
+.primaryBtn {
+    background: #36B864;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 12px 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ========== header CSS section END=========== */
+
+/* ========== fotter CSS section start=========== */
+#fotterPart {
+    background: #111D15;
+    color: #FFFFFF;
+    padding: 100px 0 64px;
+}
+.fotterLogoFlex p {
+    font-size: 16px;
+    font-weight: 300;
+    width: 356px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 160%;
+    opacity: 0.8;
+    margin-top: 24px;
+}
+
+.footerMenu h5 {
+    font-size: 20px;
+    font-weight: 600;
+    width: 356px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 92px;
+}
+
+.footerMenu ul li a {
+    font-size: 16px;
+    font-weight: 300;
+    width: 61px;
+    color: #FFFFFF;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.moreMenu h5 {
+    font-size: 20px;
+    font-weight: 600;
+    width: 356px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 106px;
+}
+
+.moreMenu ul li a {
+    font-size: 16px;
+    font-weight: 300;
+    width: 106px;
+    color: #FFFFFF;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.newsletter h5 {
+    font-size: 20px;
+    font-weight: 600;
+    width: 356px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 107px;
+}
+
+/* ========== fotter CSS section END=========== */
+
+/* ========== header CSS section start=========== */
+/* ========== header CSS section END=========== */
+
+/* ========== header CSS section start=========== */
+/* ========== header CSS section END=========== */
+
+/* ========== header CSS section start=========== */
+/* ========== header CSS section END=========== */
