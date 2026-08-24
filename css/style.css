@@ -16,6 +16,10 @@ a:hover {
     display: inline-block;
 }
 
+ul {
+    padding: 0;
+}
+
 h1,
 h2,
 h3,
@@ -63,8 +67,10 @@ p {
 #fotterPart {
     background: #111D15;
     color: #FFFFFF;
-    padding: 100px 0 64px;
+    padding: 100px 135px 20px 135px;
+
 }
+
 .fotterLogoFlex p {
     font-size: 16px;
     font-weight: 300;
@@ -77,35 +83,23 @@ p {
 
 .footerMenu h5 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
+    color: #FFFFFF;
     width: 356px;
+    margin-bottom: 36px;
     font-family: "Be Vietnam Pro", sans-serif;
-    width: 92px;
 }
 
 .footerMenu ul li a {
     font-size: 16px;
     font-weight: 300;
-    width: 61px;
+    margin-bottom: 24px;
     color: #FFFFFF;
     font-family: "Be Vietnam Pro", sans-serif;
+    opacity: 0.8;
 }
 
-.moreMenu h5 {
-    font-size: 20px;
-    font-weight: 600;
-    width: 356px;
-    font-family: "Be Vietnam Pro", sans-serif;
-    width: 106px;
-}
 
-.moreMenu ul li a {
-    font-size: 16px;
-    font-weight: 300;
-    width: 106px;
-    color: #FFFFFF;
-    font-family: "Be Vietnam Pro", sans-serif;
-}
 
 .newsletter h5 {
     font-size: 20px;
@@ -113,6 +107,39 @@ p {
     width: 356px;
     font-family: "Be Vietnam Pro", sans-serif;
     width: 107px;
+    margin-bottom: 26px;
+
+}
+
+.newsletter input[type="email"] {
+    padding: 10px 80px 10px 16px;
+    outline: none;
+    border-radius: 6px;
+    margin-bottom: 26px;
+    border: 1px solid #808080;
+    background: transparent;
+}
+
+.newsletter input::placeholder {
+    color: #9E9E9E;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Be Vietnam Pro", sans-serif;
+
+}
+
+.copyRight {
+    text-align: center;
+    border-top: 1px solid #d9d9d9;
+}
+
+.copyRight h6 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-family: "Be Vietnam Pro", sans-serif;
+    opacity: 0.8;
+    margin-top: 24px;
 }
 
 /* ========== fotter CSS section END=========== */
