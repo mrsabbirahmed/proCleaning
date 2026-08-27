@@ -118,6 +118,7 @@ p {
     margin-bottom: 26px;
     border: 1px solid #808080;
     background: transparent;
+    cursor: pointer;
 }
 
 .newsletter input::placeholder {
