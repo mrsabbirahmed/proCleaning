@@ -61,7 +61,252 @@ p {
     font-family: "Poppins", sans-serif;
 }
 
+.primaryBtn {
+    background: #36B864;
+    color: #fff;
+    padding: 12px 32px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+
+.primaryBtn:hover {
+
+    background: transparent;
+    border: 1px solid #666666;
+    color: #111D15;
+}
+
+.primaryBtn i {
+
+
+    transform: rotate(-45deg);
+    margin-left: 10px;
+
+
+}
+
 /* ========== header CSS section END=========== */
+
+/* ========== hero section CSS section start=========== */
+#hero {
+    background: url("../images/HeroIamge.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.bannerContent {
+    padding: 104px 0;
+}
+
+.bannerContent h5 {
+
+    font-size: 20px;
+    font-weight: 400;
+    color: #111D15;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-bottom: 12px;
+
+}
+
+.bannerContent h1 {
+
+    font-size: 52px;
+    font-weight: 700;
+    color: #111D15;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-bottom: 24px;
+    line-height: 115%;
+    width: 610px;
+}
+
+.bannerContent p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-bottom: 40px;
+    line-height: 30px;
+    width: 543px;
+}
+
+.bannerBtn a {
+    margin-right: 20px;
+}
+
+/* ========== hero CSS section END=========== */
+
+/* ========== Services sction start=========== */
+#servicePart {
+    padding: 100px 0;
+}
+
+.serviceText h3 {
+    font-size: 44px;
+    font-weight: 600;
+    color: #111D15;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 120%;
+    width: 536px;
+    text-transform: capitalize;
+
+}
+
+.serviceDescription {
+    margin-bottom: 60px;
+}
+
+.serviceDescription h5 {
+
+    font-size: 20px;
+    font-weight: 600;
+    color: #111D15;
+    font-family: "Be Vietnam Pro", sans-serif;
+
+
+}
+
+.serviceDescription p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 150%;
+    width: 433px;
+}
+
+.line {
+    border-top: 1px solid #83A790;
+}
+
+.cardItem {
+    margin-top: 40px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-top: 16px;
+}
+
+.card-text {
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 150%;
+    width: 370px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+/* ========== Services section end=========== */
+
+/* ========== quotePart sction start=========== */
+#quotePart {
+    padding: 75px 0;
+}
+
+.quoteContent h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #111D15;
+    font-family: "Lato", sans-serif;
+
+}
+
+.quoteContent h3 {
+    font-size: 44px;
+    font-weight: 600;
+    color: #111D15;
+    font-family: "Outfit", sans-serif;
+    line-height: 120%;
+    width: 527px;
+    text-transform: capitalize;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.quoteContent p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+    font-family: "Lato", sans-serif;
+    line-height: 30px;
+    width: 516px;
+    margin-bottom: 52px;
+}
+
+.quoteImg {
+    margin-left: 70px;
+    position: relative;
+}
+
+.quoteImgbg{
+    position: absolute;
+    height: 293px;
+    width: 285px;
+    border-radius: 15px;
+    background: #36B864;
+    top: -25px;
+    right: 13px;
+}
+
+.quoteImg-one img {
+    position: absolute;
+    height: 284px;
+    width: 283px;
+    border-radius: 15px;
+    top: 9px;
+    left: -8px;
+}
+.quoteImgbg2{
+    position: absolute;
+    height: 198px;
+    width: 173px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    top: 110px;
+    right: 170px;
+}
+.quoteImg-two img {
+    position: absolute;
+    height: 198px;
+    width: 173px;
+    border-radius: 15px;
+    z-index: 3;
+    top: 9px;
+    left: -9px;
+}
+/* ========== quotePart section end=========== */
+
+/* ========== expertTitle sction start=========== */
+.expertTitle h3 {
+    width: 610px;
+
+}
+
+.expertDescription {
+    margin-left: 110px;
+}
+
+/* ========== expertTitle section end=========== */
+
+
+/* ========== quotePart sction start=========== */
+/* ========== quotePart section end=========== */
+/* ========== Services sction start=========== */
+/* ========== Services section end=========== */
+
+
 
 /* ========== fotter CSS section start=========== */
 #fotterPart {
@@ -127,6 +372,7 @@ p {
     font-weight: 400;
     font-family: "Be Vietnam Pro", sans-serif;
 }
+
 .copyRight {
     text-align: center;
     border-top: 1px solid #d9d9d9;
