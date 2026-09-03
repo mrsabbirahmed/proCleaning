@@ -298,6 +298,47 @@ p {
     margin-left: 110px;
 }
 
+.expartTeam{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    transition: .4s;
+    overflow: hidden;
+}
+.expartTeam:hover{
+    border-color: #83A790;
+}
+.expartContent{
+    padding: 20px;
+}
+.expartContent h5{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #111D15;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.expartContent .star i {
+    color: #FF9800;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 16px;
+}
+.expartContent p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #666666;
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 299px;
+}
+
+.expartContent .social i {
+    margin-right: 24px;
+    font-size: 20px;
+    color: #111D15;
+}
 /* ========== expertTitle section end=========== */
 
 
