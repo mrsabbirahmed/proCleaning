@@ -80,9 +80,7 @@ p {
     color: #111D15;
 }
 
-.primaryBtn i {
-
-
+.cardBtn i {
     transform: rotate(-45deg);
     margin-left: 10px;
 
@@ -250,7 +248,7 @@ p {
     position: relative;
 }
 
-.quoteImgbg{
+.quoteImgbg {
     position: absolute;
     height: 293px;
     width: 285px;
@@ -268,7 +266,8 @@ p {
     top: 9px;
     left: -8px;
 }
-.quoteImgbg2{
+
+.quoteImgbg2 {
     position: absolute;
     height: 198px;
     width: 173px;
@@ -277,6 +276,7 @@ p {
     top: 110px;
     right: 170px;
 }
+
 .quoteImg-two img {
     position: absolute;
     height: 198px;
@@ -286,6 +286,7 @@ p {
     top: 9px;
     left: -9px;
 }
+
 /* ========== quotePart section end=========== */
 
 /* ========== expertTitle sction start=========== */
@@ -298,7 +299,7 @@ p {
     margin-left: 110px;
 }
 
-.expartTeam{
+.expartTeam {
     border: 1px solid transparent;
     border-radius: 20px;
     margin-top: 40px;
@@ -306,25 +307,30 @@ p {
     transition: .4s;
     overflow: hidden;
 }
-.expartTeam:hover{
+
+.expartTeam:hover {
     border-color: #83A790;
 }
-.expartContent{
+
+.expartContent {
     padding: 20px;
 }
-.expartContent h5{
+
+.expartContent h5 {
     font-size: 24px;
     font-weight: 600;
     line-height: 120%;
     color: #111D15;
     font-family: "Be Vietnam Pro", sans-serif;
 }
+
 .expartContent .star i {
     color: #FF9800;
     font-size: 14px;
     margin-right: 10px;
     margin-bottom: 16px;
 }
+
 .expartContent p {
     font-size: 16px;
     font-weight: 400;
@@ -339,8 +345,277 @@ p {
     font-size: 20px;
     color: #111D15;
 }
+
 /* ========== expertTitle section end=========== */
 
+/* ========== header CSS section start=========== */
+#company {
+    padding: 75px 0;
+}
+
+.companyImg {
+    margin-right: 236px;
+    position: relative;
+}
+
+.companyImgbg {
+    position: absolute;
+    height: 293px;
+    width: 285px;
+    border-radius: 15px;
+    background: #36B864;
+    top: -25px;
+    right: 13px;
+}
+
+.companyImg-one img {
+    position: absolute;
+    height: 284px;
+    width: 283px;
+    border-radius: 15px;
+    top: 9px;
+    left: -8px;
+}
+
+.companyImgbg2 {
+    position: absolute;
+    height: 198px;
+    width: 173px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    top: 110px;
+    right: 170px;
+}
+
+.companyImg-two img {
+    position: absolute;
+    height: 198px;
+    width: 173px;
+    border-radius: 15px;
+    z-index: 3;
+    top: 9px;
+    left: -9px;
+}
+
+.companyContent h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #111D15;
+    font-family: "Lato", sans-serif;
+
+}
+
+.companyContent h3 {
+    font-size: 44px;
+    font-weight: 600;
+    color: #111D15;
+    font-family: "Outfit", sans-serif;
+    line-height: 120%;
+    width: 527px;
+    text-transform: capitalize;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.companyContent p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+    font-family: "Lato", sans-serif;
+    line-height: 30px;
+    width: 516px;
+    margin-bottom: 52px;
+}
+
+.companyBtnTow {
+    margin-left: 24px;
+}
+
+/* ========== header CSS section END=========== */
+
+/* ========== price CSS section start=========== */
+#pricePart {
+    background: url("../images/priceBacground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 93px;
+    padding-bottom: 300px;
+}
+
+.priceContent {
+    text-align: center;
+    color: #fff;
+}
+
+.priceContent h5 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.priceContent h3 {
+    font-size: 44px;
+    font-weight: 600;
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 551px;
+    line-height: 120%;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 36px;
+}
+
+.priceToggle {
+    background: #F4F5F8;
+    padding: 6px 8px;
+    margin: 0 auto;
+    border-radius: 200px;
+    display: inline-block;
+}
+
+.priceToggle .monthly {
+    background: #36B864;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Be Vietnam Pro", sans-serif;
+    padding: 7px 22px;
+    border-radius: 200px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.priceToggle .yearly {
+    background: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Be Vietnam Pro", sans-serif;
+    padding: 7px 22px;
+    border-radius: 200px;
+    color: #111D15;
+}
+
+.priceCardParent {
+    position: relative;
+    margin-top: 40px;
+}
+
+.priceCard {
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 30px 35px;
+    position: absolute;
+    z-index: 10;
+    transition: .4s;
+}
+
+.priceCard:hover {
+
+    box-shadow: 0 5px 20px 0 rgba(24, 1, 1, 0.5);
+    transform: scaleY(1.02);
+    transform-origin: top;
+}
+
+.unOrder {
+    padding-left: 35px;
+}
+
+.priceCard h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #111D15;
+    font-family: "Be Vietnam Pro", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.priceCard h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    font-family: "Be Vietnam Pro", sans-serif;
+    padding: 20px 40px;
+}
+
+.priceTag {
+    background: #36B864;
+    border-radius: 10px;
+}
+
+.priceCard h3 span {
+
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Be Vietnam Pro", sans-serif;
+
+}
+
+.unOrder {
+    margin-top: 36px;
+}
+
+.unOrder li {
+    color: #666666;
+    margin-bottom: 10px;
+
+
+}
+
+.unOrder li {
+    list-style: disc;
+}
+
+.unOrder li::marker {
+
+    font-size: 14px;
+}
+
+.priceCardBtn {
+    text-align: center;
+}
+
+.priceCardBtn a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #111D15;
+
+    font-family: "Be Vietnam Pro", sans-serif;
+    border: 1px solid #666666;
+    padding: 20px 110px;
+    border-radius: 6px;
+    margin-top: 36px;
+    transition: .4s;
+}
+
+.priceCardBtn a:hover {
+    background: #36B864;
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+/* ========== price CSS section END=========== */
+
+/* ========== about CSS section start=========== */
+#about{
+    padding: 75px 0;
+    margin-top: 250PX;
+}
+.aboutBtnTow{
+    margin-left: 12px;
+}
+/* ========== about CSS section END=========== */
+
+/* ========== header CSS section start=========== */
+/* ========== header CSS section END=========== */
+
+/* ========== header CSS section start=========== */
+/* ========== header CSS section END=========== */
+
+/* ========== header CSS section start=========== */
+/* ========== header CSS section END=========== */
 
 /* ========== quotePart sction start=========== */
 /* ========== quotePart section end=========== */
@@ -430,11 +705,3 @@ p {
 
 /* ========== fotter CSS section END=========== */
 
-/* ========== header CSS section start=========== */
-/* ========== header CSS section END=========== */
-
-/* ========== header CSS section start=========== */
-/* ========== header CSS section END=========== */
-
-/* ========== header CSS section start=========== */
-/* ========== header CSS section END=========== */
