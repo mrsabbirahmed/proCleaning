@@ -720,13 +720,74 @@ p {
     font-size: 16px;
     line-height: 1.6;
 }
-
-
-/* ========== testimonial card end ========== */
 /* ========== about CSS section END=========== */
 
-/* ========== header CSS section start=========== */
-/* ========== header CSS section END=========== */
+/* ========== Blog CSS section start=========== */
+#blogPart{
+    padding: 75px;
+}
+.blogText h3 {
+    font-size: 44px;
+    font-weight: 600;
+    color: #111D15;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 120%;
+    width: 536px;
+    text-transform: capitalize;
+
+}
+
+.blogDescription {
+    margin-bottom: 60px;
+}
+
+.blogDescription h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #111D15;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.blogDescription p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 150%;
+    width: 474px;
+}
+
+.line {
+    border-top: 1px solid #83A790;
+}
+
+.blog-cardItem {
+    margin-top: 40px;
+}
+.blog-card{
+    text-align: center;
+}
+.blog-card span{
+    font-size: 14px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #666666;
+}
+.blog-card-title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.blog-card-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 150%;
+    width:320px;
+}
+/* ========== Blog CSS section END=========== */
 
 /* ========== header CSS section start=========== */
 /* ========== header CSS section END=========== */
