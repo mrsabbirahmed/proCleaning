@@ -773,6 +773,7 @@ p {
     color: #666666;
 }
 .blog-card-title{
+    margin-top: 12px;
     font-size: 24px;
     font-weight: 600;
     line-height: 120%;
@@ -786,6 +787,8 @@ p {
     font-family: "Be Vietnam Pro", sans-serif;
     line-height: 150%;
     width:320px;
+    margin: 0 auto;
+    margin-bottom: 16px;
 }
 /* ========== Blog CSS section END=========== */
 
